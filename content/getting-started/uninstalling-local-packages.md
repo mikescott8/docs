@@ -18,3 +18,11 @@ To remove it from the dependencies in `package.json`, you will need to use the s
 ```
 npm uninstall --save lodash
 ```
+
+To remove it from the dev dependencies in `package.json`, you will need to use the save-dev flag:
+
+```
+npm uninstall --save-dev lodash
+```
+
+NOTE: If the package is in both the dependencies and the dev dependencies, you will need to run command twice, each with the different option shown above.
